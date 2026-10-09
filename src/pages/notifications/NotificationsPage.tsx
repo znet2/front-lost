@@ -3,7 +3,7 @@ import { Bell, Check } from 'lucide-react';
 import { useState } from 'react';
 import { PageHeader } from '../../components/common/PageHeader';
 import { EmptyState } from '../../components/common/EmptyState';
-import { getNotifications, markNotificationAsRead, markAllNotificationsAsRead, saveNotifications } from '../../services/storageService';
+import { getNotifications, markNotificationAsRead, markAllNotificationsAsRead } from '../../services/storageService';
 import { getCurrentUser } from '../../data/mockUsers';
 import { formatRelativeTime } from '../../utils/helpers';
 

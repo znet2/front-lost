@@ -76,7 +76,8 @@ export const RequestDetailPage = () => {
         {
           id: '3',
           title: 'ประสานงานการส่งคืน',
-          status: 'current'
+          status: 'current',
+          date: ''
         }
       ],
       createdAt: new Date().toISOString(),

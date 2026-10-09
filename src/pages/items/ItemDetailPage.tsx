@@ -6,7 +6,6 @@ import { getCurrentUser, mockUsers } from '../../data/mockUsers';
 import { getCategoryLabel, formatDate, generateId } from '../../utils/helpers';
 import { StatusBadge } from '../../components/common/StatusBadge';
 import { useToast } from '../../components/common/Toast';
-import { ConfirmModal } from '../../components/common/ConfirmModal';
 
 export const ItemDetailPage = () => {
   const { itemId } = useParams();

@@ -5,14 +5,12 @@ import { PageHeader } from '../../components/common/PageHeader';
 import { useToast } from '../../components/common/Toast';
 import { getReturnProcesses, updateReturnProcess, updateItem, addReturnHistory, addNotification } from '../../services/storageService';
 import { generateId } from '../../utils/helpers';
-import { getCurrentUser } from '../../data/mockUsers';
 
 export const ScanQRPage = () => {
   const [qrCode, setQrCode] = useState('');
   const [confirmedReturn, setConfirmedReturn] = useState(false);
   const navigate = useNavigate();
   const { showToast } = useToast();
-  const currentUser = getCurrentUser();
 
   const handleConfirm = () => {
     if (!qrCode.trim()) {

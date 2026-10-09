@@ -11,7 +11,6 @@ import {
   Bell,
   User,
   Users,
-  Settings,
   Shield,
   FileBarChart,
   X
